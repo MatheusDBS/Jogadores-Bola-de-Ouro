@@ -12,6 +12,7 @@ public class App {
         QuemTemMaisBolaDeOuro quemTemMaisBolaDeOuro = new QuemTemMaisBolaDeOuro();
         BuscaJogador buscaJogador = new BuscaJogador();
         AdicionarJogador adicionarJogador = new AdicionarJogador();
+        
 
         // Loop para manter a aplicação em execução até que o usuário escolha sair (opção 0)
         while (opcaoMenu != 0) {
@@ -29,7 +30,7 @@ public class App {
                             .obterJogadorComMaisBolasDeOuro(ListaJogadores.jogadoresBolaDeOuro);
 
                     // Verificando se um jogador foi encontrado e exibindo a informação
-                    
+                    menuUsuario.exibeJogadorBolaDeOuro(jogadorComMaisBolasDeOuro);
                 
                 // Caso para listar os principais países e jogadores com mais prêmios de Bola de Ouro
                 case 3:
