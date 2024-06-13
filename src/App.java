@@ -29,12 +29,7 @@ public class App {
                             .obterJogadorComMaisBolasDeOuro(ListaJogadores.jogadoresBolaDeOuro);
 
                     // Verificando se um jogador foi encontrado e exibindo a informação
-                    if (jogadorComMaisBolasDeOuro != null) {
-                        System.out.println("Jogador com mais Bolas de Ouro: " + jogadorComMaisBolasDeOuro);
-                    } else {
-                        System.out.println("Nenhum jogador encontrado.");
-                    }
-                    break;
+                    
                 
                 // Caso para listar os principais países e jogadores com mais prêmios de Bola de Ouro
                 case 3:
