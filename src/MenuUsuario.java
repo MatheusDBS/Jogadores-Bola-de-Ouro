@@ -11,7 +11,7 @@ public class MenuUsuario {
                 "3- Ver qual nacionalidade ganhou mais vezes o prêmio\n" +
                 "4- Adicionar novo Jogador que ganhou o prêmio\n" +
                 "5- Buscar Jogador por nome\n" +
-                "6- ");
+                "6- Sair");
                 
         opcaoMenu = leitor.nextInt();
         leitor.nextLine();
