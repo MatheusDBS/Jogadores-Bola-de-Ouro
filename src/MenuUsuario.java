@@ -22,4 +22,12 @@ public class MenuUsuario {
         System.out.println("Digite o nome do jogador que deseja buscar:");
         return leitor.nextLine();
     }
+
+    public void exibeJogadorBolaDeOuro(Jogador jogadorComMaisBolasDeOuro){
+        if (jogadorComMaisBolasDeOuro != null) {
+                        System.out.println("Jogador com mais Bolas de Ouro: " + jogadorComMaisBolasDeOuro);
+                    } else {
+                        System.out.println("Nenhum jogador encontrado.");
+                    }
+    }
 }
